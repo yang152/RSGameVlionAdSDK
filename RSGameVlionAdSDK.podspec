@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "RSGameVlionAdSDK"
-    spec.version      = "1.3.8"
+    spec.version      = "1.3.9"
     spec.summary      = "小游戏SDK"
     
     spec.description  = <<-DESC
@@ -21,12 +21,17 @@ Pod::Spec.new do |spec|
     spec.source       = { :git => "https://github.com/yang152/RSGameVlionAdSDK.git", :tag => "#{spec.version}" }
 
     spec.vendored_frameworks = 'RSGameVlionAdSDK.framework'
+    
     spec.resource = 'RSGameVlionAd.bundle'
-    spec.dependency = 'Bytedance-UnionAD'
+    
+    spec.dependency 'Bytedance-UnionAD'
     
     valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
+    
     spec.xcconfig = {
-      'VALID_ARCHS' =>  valid_archs.join(' '),
+    
+      'VALID_ARCHS' =>  valid_archs.join(' ')
+      
     }
 
 end
