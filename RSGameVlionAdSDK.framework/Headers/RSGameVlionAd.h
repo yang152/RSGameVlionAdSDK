@@ -2,8 +2,8 @@
 //  RSGameVlionAd.h
 //  RSGameVlionAd
 //
-//  Created by 周晓旭 on 2019/12/20.
-//  Copyright © 2019 周晓旭. All rights reserved.
+//  Created by yangting on 2020/6/29.
+//  Copyright © 2020 杨挺. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

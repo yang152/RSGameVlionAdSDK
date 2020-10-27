@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "RSGameVlionAdSDK"
-    spec.version      = "1.5.1"
+    spec.version      = "3.0.0"
     spec.summary      = "小游戏SDK"
     
     spec.description  = <<-DESC
